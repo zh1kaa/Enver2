@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Nunito Sans;
+}
+body {
+  background: #19191b;
+}
+h1 {
+  color: #ffffff;
+}
+p {
+  color: #ffffffb2;
+}
+button {
+  width: 200px;
+  height: 50px;
+  background: #5454d4;
+  border: none;
+  color: #fff;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+#header {
+  padding-block: 30px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  display: flex;
+  font-weight: 400px;
+  font-size: 18px;
+  gap: 25px;
+  a {
+    color: #fff;
+  }
+  a:hover {
+    color: #5454d4;
+  }
+}
+.header input {
+  height: 25px;
+  border: 1px solid #fff;
+  background: none;
+  border-radius: 5px;
+}
+#main {
+  padding-block: 100px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.main-text h1 {
+  width: 300px;
+  font-weight: 600;
+  font-size: 50px;
+}
+.main-text p {
+  width: 520px;
+  font-weight: 400;
+  font-size: 21px;
+}
+button ion-icon {
+  font-size: 20px;
+  rotate: 420deg;
+}
+.main-image {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+.main-imag {
+  width: 120%;
+  max-width: 560px;
+  position: absolute;
+  bottom: -40px;
+  left: -60px;
+}
+#qwert1 {
+  position: absolute;
+  left: -105px;
+  top: 0;
+}
+#qwert2 {
+  position: absolute;
+  top: -40px;
+  right: 0;
+}
+#qwert3 {
+  position: absolute;
+  bottom: 0;
+  left: -120px;
+}
+#qwert4 {
+  position: absolute;
+  bottom: 10px;
+  right: -10px;
+}
+#service {
+  padding-block: 250px;
+}
+.service-taimline {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 550;
+  padding-bottom: 50px;
+  h1 {
+    width: 700px;
+    text-align: center;
+  }
+}
+.service {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 80px;
+}
+.service-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.service-text h1 {
+  font-weight: 600;
+  font-size: 24px;
+}
+.service-text p {
+  width: 285px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+.service-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 69px;
+  width: 69px;
+  border-radius: 50%;
+  background: #f040371a;
+}
+#portfolio {
+  padding-top: 100px;
+}
+.portfolio-taimline {
+  padding-block: 80px;
+  font-size: 28px;
+  font-weight: 550;
+  width: 700px;
+}
+.portfolio {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 400px;
+}
+.portfolio img:nth-child(1) {
+  align-self: flex-start;
+}
+.portfolio img:nth-child(2) {
+  align-self: center;
+}
+.portfolio img:nth-child(3) {
+  align-self: flex-end;
+}
+.portfolio-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 80px;
+}
+.portfolio-text h1 {
+  width: 600px;
+  font-size: 50px;
+  font-weight: 650;
+}
+.portfolio-text button {
+  border-radius: 5px;
+  width: 165px;
+  height: 50px;
+}
+#footer {
+  padding-bottom: 35px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  a {
+    color: #fff;
+  }
+  h1 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
